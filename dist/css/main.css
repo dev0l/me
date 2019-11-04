@@ -102,8 +102,7 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
-    background-attachment: fixed;
-    background-size: cover; }
+    background-attachment: fixed; }
     body#bg-img:after {
       content: '';
       position: absolute;
