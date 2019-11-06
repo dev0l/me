@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is Me",
   "main": "index.js",
-  "homepage": "https://dev0l/me",
+  "homepage": "https://dev0l.github.io/me",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
