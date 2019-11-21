@@ -165,7 +165,7 @@ main {
   align-items: center;
   margin-top: 1rem;
 
-  div {
+  div, a {
     font-size: 2vh;
     // text-align: center;
     border: 3px #fff solid;
@@ -181,6 +181,29 @@ main {
         color: set-text-color($secondary-color);
       }
     }
+  }
+}
+
+// CV Page
+.info {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+  'info-left info-right info-right';
+  grid-template-columns: repeat(3, 1fr);
+
+  .info-left {
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
+
+  .info-right {
+    // color: set-text-color($secondary-color);
+    width: 100%;
   }
 }
 

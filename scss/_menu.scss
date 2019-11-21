@@ -49,7 +49,8 @@
   &.show {
     visibility: visible;
   }
-
+  
+  // Flex
   &-brand, &-nav {
     display: flex;
     flex-flow: column wrap;
