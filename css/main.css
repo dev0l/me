@@ -192,18 +192,30 @@ main {
   grid-template-columns: 1fr;
   align-items: center;
   margin-top: 1rem; }
-  .boxes div {
+  .boxes div, .boxes a {
     font-size: 2vh;
     border: 3px #fff solid;
     padding: 1rem 2rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
-    .boxes div:hover {
+    .boxes div:hover, .boxes a:hover {
       padding: 0.5rem 1.5rem;
       background: #3d9801;
       color: #fff; }
-      .boxes div:hover span {
+      .boxes div:hover span, .boxes a:hover span {
         color: #fff; }
+
+.info {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-areas: 'info-left info-right info-right';
+  grid-template-columns: repeat(3, 1fr); }
+  .info .info-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .info .info-right {
+    width: 100%; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
