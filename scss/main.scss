@@ -48,7 +48,7 @@ header {
 main {
   padding: 4rem;
   // height: 100%;
-  min-height: calc(100vh - 60px);
+  // min-height: calc(100vh - 60px);
 
   .icons {
     margin-top: 1rem;
@@ -184,28 +184,28 @@ main {
   }
 }
 
-// CV Page
-.info {
-  display: grid;
-  grid-gap: 1.5rem;
-  grid-template-areas:
-  'info-left info-right info-right';
-  grid-template-columns: repeat(3, 1fr);
+// Resumé
+// .info {
+//   display: grid;
+//   grid-gap: 1.5rem;
+//   grid-template-areas:
+//   'info-left info-right info-right';
+//   grid-template-columns: repeat(3, 1fr);
 
-  .info-left {
+//   .info-left {
 
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-  }
+//     ul {
+//       margin: 0;
+//       padding: 0;
+//       list-style: none;
+//     }
+//   }
 
-  .info-right {
-    // color: set-text-color($secondary-color);
-    width: 100%;
-  }
-}
+//   .info-right {
+//     // color: set-text-color($secondary-color);
+//     width: 100%;
+//   }
+// }
 
 // Button Styles
 .btn {
@@ -234,7 +234,7 @@ main {
 
 #main-footer {
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;

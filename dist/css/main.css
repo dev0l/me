@@ -136,8 +136,7 @@ header {
   color: #3d9801; }
 
 main {
-  padding: 4rem;
-  min-height: calc(100vh - 60px); }
+  padding: 4rem; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -205,18 +204,6 @@ main {
       .boxes div:hover span, .boxes a:hover span {
         color: #fff; }
 
-.info {
-  display: grid;
-  grid-gap: 1.5rem;
-  grid-template-areas: 'info-left info-right info-right';
-  grid-template-columns: repeat(3, 1fr); }
-  .info .info-left ul {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-  .info .info-right {
-    width: 100%; }
-
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -236,7 +223,7 @@ main {
 
 #main-footer {
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
