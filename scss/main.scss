@@ -129,7 +129,7 @@ main {
 }
 
 // -----------------------------------------------------------------
-// Contact Page (FlexBox-style for educational and showcase purpose)
+// Contact Page (FlexBox-style for educational and showcase purposes)
 // .boxes {
 //   display: flex;
 //   flex-wrap: wrap;
@@ -183,29 +183,6 @@ main {
     }
   }
 }
-
-// Resumé
-// .info {
-//   display: grid;
-//   grid-gap: 1.5rem;
-//   grid-template-areas:
-//   'info-left info-right info-right';
-//   grid-template-columns: repeat(3, 1fr);
-
-//   .info-left {
-
-//     ul {
-//       margin: 0;
-//       padding: 0;
-//       list-style: none;
-//     }
-//   }
-
-//   .info-right {
-//     // color: set-text-color($secondary-color);
-//     width: 100%;
-//   }
-// }
 
 // Button Styles
 .btn {

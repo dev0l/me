@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d dist"
   },
   "author": "dev0l",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"
