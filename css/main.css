@@ -307,4 +307,9 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .sm-heading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vh; } }
