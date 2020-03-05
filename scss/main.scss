@@ -71,11 +71,10 @@ main {
   }
 }
 
-// Typewriter
+// Typewriter (Flexbox-style)
 .sm-heading-wrapper {
   display: flex;
 
-  /* DEMO-SPECIFIC STYLES */
   .typewriter h2 {
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -161,7 +160,7 @@ main {
 }
 
 // -----------------------------------------------------------------
-// Contact Page (FlexBox-style for educational and showcase purposes)
+// Contact Page (Flexbox-style)
 // .boxes {
 //   display: flex;
 //   flex-wrap: wrap;
