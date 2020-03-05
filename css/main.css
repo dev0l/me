@@ -152,7 +152,6 @@ main {
 
 .sm-heading-wrapper {
   display: flex;
-  /* DEMO-SPECIFIC STYLES */
   /* The typing effect */
   /* The typewriter cursor effect */ }
   .sm-heading-wrapper .typewriter h2 {
